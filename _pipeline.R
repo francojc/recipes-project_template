@@ -11,9 +11,9 @@
 # Global project options or packages
 
 # Load `pacman`. If not installed, install then load.
-if (!require(package, character.only = TRUE)) {
-  install.packages(pacman)
-  library(pacman, character.only = TRUE)
+if (!require("pacman", character.only = TRUE)) {
+  install.packages("pacman")
+  library("pacman", character.only = TRUE)
 }
 
 # RUN ---------------------------------------------------------------------
