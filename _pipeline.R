@@ -20,23 +20,23 @@ if (!require("pacman", character.only = TRUE)) {
 
 # 1. Acquire data
 
-source("code/acquire_data.R")
+source(file = "code/acquire_data.R")
 
 # 2. Curate data
 
-source("code/curate_data.R")
+source(file = "code/curate_data.R")
 
 # 3. Transform data
 
-source("code/transform_data.R")
+source(file = "code/transform_data.R")
 
 # 4. Analyze data
 
-source("code/analyze_data.R")
+source(file = "code/analyze_data.R")
 
 # 5. Generate reports
 
-source("report/article/report.Rmd")
+source(file = "code/generate_reports.R")
 
 # LOG ---------------------------------------------------------------------
 
