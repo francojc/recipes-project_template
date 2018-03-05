@@ -3,7 +3,7 @@ title: "Article"
 author: "Your Name"
 date: "8/23/2017"
 output: 
-  pdf_document: 
+  html_document: 
     number_sections: yes
     toc: yes
 bibliography: bibliography.bib
