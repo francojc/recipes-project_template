@@ -1,7 +1,7 @@
 ---
 title: "Web report"
 author: "<Your Name>"
-date: "<current date>"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output:
   html_document:
     toc: true

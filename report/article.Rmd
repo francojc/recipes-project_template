@@ -1,9 +1,9 @@
 ---
 title: "Article"
 author: "Your Name"
-date: "8/23/2017"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output: 
-  html_document: 
+  pdf_document: 
     number_sections: yes
     toc: yes
 bibliography: bibliography.bib
